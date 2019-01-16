@@ -9,7 +9,7 @@ type deck []string
 // as we do with any function
 // and in this case we are returning our own type we created
 // which is "deck"
-func newDeck deck {
+func newDeck() deck {
 	cards := deck{}
 
 	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
